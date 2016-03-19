@@ -1,0 +1,23 @@
+{
+    "name": "stackit/stackit",
+    "type": "library",
+    "description": "PHP API for stack data",
+    "keywords": ["data","api"],
+    "homepage": "https://github.com/jmas/stackit",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Maslakov Alexander",
+            "email": "jmas.ukraine@gmail.com",
+            "homepage": "https://github.com/jmas"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stackit\\": "Stackit"
+        }
+    }
+}
